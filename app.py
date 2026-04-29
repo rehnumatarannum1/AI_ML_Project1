@@ -15,7 +15,7 @@ with st.sidebar:
         if len(images)>3:
             st.error("Upload at most 3 notes :framed_picture:")
         else:
-            st.subheader("Notes Uploaded :heart_eyes:")
+            st.subheader("Images Uploaded :heart_eyes:")
             col=st.columns(len(images)) #create columns according to the number of images
             for i,img in enumerate(images): #i->column index; img->image index
                 with col[i]:
